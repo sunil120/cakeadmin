@@ -1,0 +1,402 @@
+.table {
+    margin-top: 25px;
+    background: #fff;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    border: 1px solid #d1d1d1 !important;
+}
+
+.datatable .inProgress {
+    padding-left: 0;
+    background-color: rgb(66, 139, 202);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: fixed;
+    right: 0;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 1040;
+}
+
+.inProgress .btn {
+    background-color: transparent;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.common-table th .btn-group .btn {
+    height: auto;
+    padding: 1px 5px;
+}
+
+.common-table .btn-group > .btn {
+    background-color: transparent;
+}
+
+.button-toolbar-main .btn-default {
+    margin-right: 3px;
+}
+
+.button-toolbar-main .btn {
+    padding: 6px 12px;
+    height: auto;
+}
+
+.common-table th {
+    background-color: #3c8dbc;
+    color: #fff;
+    font-weight: normal;
+    padding: 10px 5px !important;
+}
+
+.common-table .icon-grid {
+    color: #05a3e4;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.reports-manager-btn-container .deleteReport {
+    float: left;
+    margin-right: 10px;
+}
+
+.reports-manager-btn-container .submit {
+    float: left;
+}
+
+.report-manager-container {
+    max-width: 944px;
+}
+
+.error-message {
+    color: #ff0000
+}
+
+.dropdown-menu .multiselect-search {
+    height: 39px !important;
+}
+
+.dropdown-menu li a label {
+    padding-top: 0 !important;
+    min-height: inherit !important
+}
+
+.status-radio input[type=radio] {
+    margin: 0;
+    position: inherit;
+    margin: 0 5px;
+}
+
+.settings-img {
+    margin: 10px 0 0 0;
+}
+
+.clear {
+    clear: both
+}
+
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+.panel-title > a:hover,
+.panel-title > a:focus {
+    color: #fff;
+}
+
+.template-insert-select .select-style {
+    width: 95%;
+    display: inline-block
+}
+
+.child-menu-permission {
+    padding: 10px;
+    background-color: #848484;
+    color: #FFF;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.child-menu-permission .checkbox {
+    margin: 0
+}
+
+input[type="checkbox"]:checked + label::before {
+    background-image: url("../img/checkbox-custom.png");
+    background-position: 0 -15px !important;
+    content: "";
+    height: 15px;
+    width: 15px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.radio label,
+.checkbox label {
+    position: relative;
+}
+
+.checkbox label::before {
+    top: 5px;
+}
+
+.checkbox label::before {
+    background-image: url("../img/checkbox-custom.png");
+    background-position: 0 0;
+    content: "";
+    height: 15px;
+    left: 0;
+    margin-right: 15px;
+    position: absolute;
+    top: 3px;
+    width: 15px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+#radio label::before {
+    background-image: url("../img/radio-custom.png");
+    background-position: 0 0;
+    content: "";
+    height: 15px;
+    left: 0;
+    margin-right: 15px;
+    position: absolute;
+    width: 15px;
+}
+
+input[type="radio"]:checked + label::before,
+input[type="radio"]:checked + i + label::before {
+    background-image: url("../img/radio-custom.png");
+    background-position: 0 -15px !important;
+    content: "";
+    height: 15px;
+    width: 15px;
+}
+
+input[type="radio"]:checked + label::before {
+    background-image: url("../img/radio-custom.png");
+    background-position: 0 -15px !important;
+    content: "";
+    height: 15px;
+    width: 15px;
+}
+
+input[type="radio"] + label,
+input[type="radio"] + i + label {
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 15px;
+    padding-left: 20px;
+    position: relative;
+    margin-left: 5px;
+}
+
+.multiselect-container input[type="checkbox"] {
+    display: inline-block;
+    margin-left: -20px;
+}
+
+.status-radio .control-label {
+    padding-top: 5px;
+}
+
+.multi-select-style .btn-group {
+    width: 100%;
+}
+
+.multi-select-style .multiselect {
+    width: 100%;
+    text-align: left;
+}
+
+.multi-select-style .multiselect-selected-text {
+    float: left;
+}
+
+.multi-select-style .caret {
+    float: right;
+    margin-top: 10px;
+    margin-right: -12px;
+}
+
+.multi-select-style .multiselect-container {
+    width: 100%;
+}
+
+.form-user-name {
+    margin-top: 5px
+}
+
+.btn-info.disabled,
+.btn-info[disabled],
+fieldset[disabled] .btn-info,
+.btn-info.disabled:hover,
+.btn-info[disabled]:hover,
+fieldset[disabled] .btn-info:hover,
+.btn-info.disabled:focus,
+.btn-info[disabled]:focus,
+fieldset[disabled] .btn-info:focus,
+.btn-info.disabled.focus,
+.btn-info.focus[disabled],
+fieldset[disabled] .btn-info.focus,
+.btn-info.disabled:active,
+.btn-info[disabled]:active,
+fieldset[disabled] .btn-info:active,
+.btn-info.disabled.active,
+.btn-info.active[disabled],
+fieldset[disabled] .btn-info.active {
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+
+.panel-default > .panel-heading {
+    background-color: #3c8dbc;
+    border-radius: 0;
+    color: #FFF;
+}
+
+.panel-default > .panel-heading a:hover,
+.panel-default > .panel-heading a:active,
+.panel-default > .panel-heading a:focus {
+    color: #FFF;
+}
+
+.select2-container {
+    width: 100% !important;
+}
+
+.select2-container .select2-selection {
+    border-radius: 0 !important;
+    border-color: #d2d6de !important;
+    height: 35px !important;
+}
+
+.select2-container .select2-selection b {
+    margin-top: 2px !important
+}
+
+.tags > input {
+    border: 0;
+}
+
+.tag-autocomplete .tags {
+    box-shadow: none;
+    border-radius: 0;
+    border: 1px solid #d2d6de;
+    padding: 6px 12px;
+    line-height: 1.42857;
+    -webkit-appearance: inherit;
+}
+
+.tag-autocomplete .tags.focused {
+    box-shadow: none;
+}
+
+.tag-autocomplete .tag-item {
+    background: #3c8dbc !important;
+    border: medium none !important;
+    border-radius: 0 !important;
+    height: 22px !important;
+    line-height: 20px !important;
+    margin: 0 2px 3px 0 !important;
+}
+
+.tag-autocomplete .ng-binding {
+    color: #fff;
+    font-size: 14px;
+}
+
+.tag-autocomplete .remove-button {
+    color: #ffffff !important;
+}
+
+.tag-autocomplete .autocomplete {
+    border-radius: 0;
+    box-shadow: none;
+    margin-top: 0;
+    padding: 0;
+}
+
+.tag-autocomplete .autocomplete .suggestion-item em {
+    background: none !important;
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+}
+
+.tag-autocomplete .autocomplete .suggestion-item {
+    background: #fff !important;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.tag-autocomplete .autocomplete .selected {
+    background: #3c8dbc !important;
+    color: #fff !important
+}
+
+.tag-autocomplete .selected .ng-binding {
+    color: #fff !important
+}
+
+.tag-autocomplete input[type=text] {
+    border: 1px solid #3c8dbc;
+    box-shadow: none;
+}
+
+
+/*tooltip css*/
+
+.tooltip-content {
+    position: relative;
+}
+
+.custom-tooltip {
+    position: absolute;
+    top: 100px;
+    left: 32px;
+    z-index: 1;
+    padding: 13px 15px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px #aaaaaa;
+    border: 1px solid #c2c5c9;
+    font-size: 12px;
+}
+
+.top-arrow {
+    height: 10px;
+    left: 10px;
+    position: absolute;
+    top: -10px;
+    width: 17px;
+    background: url("../img/top-arrow.png") 0 0 no-repeat;
+}
+
+.img-select2{
+    width: 50px; 
+    height: 50px;
+}
+
+.custom-tooltip .error-message{ color: #000}
+.notification-empty{text-align: center}
