@@ -4883,7 +4883,7 @@ angular.module('neogetDataTableServices').
                     + '<form class="form-inline" action="" method="">'
                     + '<input id="bulk_process_ids" name="bulk_process_ids" type="hidden"/>'
                     + '</form>'
-                    + '<table class="table table-condensed table-hover" arrow-selector ctrl-selector>'
+                    + '<table class="table table-striped table-hover table-quote" arrow-selector ctrl-selector>'
                     + '<thead>'
                     + '<tr ng-repeat="(key,headers) in udtTable.getExtraHeaderConfig()">'
                     + '<th colspan="{{header.colspan}}" ng-repeat="header in headers"><span ng-bind="udtTableFunctions.messages.Messages(header.label)"/></th>'

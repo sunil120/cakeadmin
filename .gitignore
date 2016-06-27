@@ -1,0 +1,8 @@
+/nbproject
+/app/Config/database.php
+/app/Config/core.php
+/app/tmp
+/lib/Cake/Console/Templates/skel/tmp/
+/app/webroot/img/machine
+/app/webroot/img/model
+/app/webroot/files

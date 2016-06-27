@@ -96,12 +96,9 @@
     </head>
 
     <body class="hold-transition <?php echo $theme_skin;?> sidebar-mini">
+        <?php echo $this->element('menu/top_menu'); ?>
         <div class="wrapper">
-            <?php
-            echo $this->element('menu/top_menu');
-            echo $this->element('menu/left_sidebar');
-            ?>
-
+            <?php echo $this->element('menu/left_sidebar');?>
             <!-- Content Wrapper. Contains page content -->
             <div class="outer-wrapper">
                 <!-- Content Header (Page header) -->

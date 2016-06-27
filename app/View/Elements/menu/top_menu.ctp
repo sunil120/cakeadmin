@@ -37,7 +37,7 @@
                         <li class="user-body">
                             <div class="row">
                                 <div class="col-xs-4 text-center">
-                                    <a href="<?php echo $this->webroot . "settings"?>">Settings</a>
+                                    <a href="<?php echo $this->webroot . "settings/edit"?>">Settings</a>
                                 </div>
                                 <div class="col-xs-8 text-center">
                                     <a href="<?php echo $this->webroot . "users/changepassword/" . $activeUser['id']?>">Change Password</a>
@@ -58,3 +58,4 @@
             </ul>
         </div>
     </nav>
+</header>

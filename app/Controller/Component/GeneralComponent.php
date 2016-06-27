@@ -396,7 +396,7 @@ class GeneralComponent extends Component
     public function getActonTitleList()
     {
         return array(
-            'index' => $this->title_for_layout . ' List',
+            'index' => 'Manage '.$this->title_for_layout,
             'add' => 'Add ' . $this->title_for_layout,
             'edit' => 'Edit ' . $this->title_for_layout,
             'view' => $this->title_for_layout . ' View',
